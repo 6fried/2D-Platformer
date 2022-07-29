@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2596247315358589721}
   - component: {fileID: 4179187198603712693}
   - component: {fileID: 1272837706}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,8 +115,7 @@ GameObject:
   - component: {fileID: 1167797280935117621}
   - component: {fileID: 1668180095173353850}
   - component: {fileID: 1272837705}
-  - component: {fileID: 466412423}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SmartWalkingEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -289,11 +288,11 @@ MonoBehaviour:
   maximumHealth: 3
   currentHealth: 3
   invincibilityTime: 0
-  useLives: 1
+  useLives: 0
   currentLives: 3
   maximumLives: 5
   respawnWaitTime: 3
-  isInvincible: 1
+  isInvincible: 0
   deathEffect: {fileID: 8947246785620148104, guid: 05428f5961cfc0d4fadbe0314aa21c97, type: 3}
   hitEffect: {fileID: 93431346535372284, guid: 7a1ea1c65fff14c41b5fafe65981feae, type: 3}
 --- !u!114 &1668180095173353850
@@ -340,48 +339,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7004852, y: 0.1131897}
   m_EdgeRadius: 0
---- !u!60 &466412423
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668180095173353846}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 1.25}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.47032928, y: -0.5372305}
-      - {x: -0.6315708, y: -0.51009345}
-      - {x: -0.65519524, y: 0.30173993}
-      - {x: -0.74874115, y: -0.52403355}
-      - {x: -0.66472816, y: -0.52412057}
-      - {x: -0.48169327, y: -0.55633974}
-      - {x: -0.3539524, y: -0.6264696}
-      - {x: 0.34549713, y: -0.6246283}
-      - {x: 0.4781704, y: -0.5503497}
-      - {x: 0.57803345, y: -0.54384446}
-      - {x: 0.7378235, y: -0.53644395}
-      - {x: 0.708704, y: 0.3624015}
-      - {x: 0.64652824, y: -0.5088036}
-      - {x: 0.57675743, y: -0.53598547}
-      - {x: 0.44661903, y: -0.5391481}
-      - {x: 0.34739685, y: -0.51149464}
-      - {x: -0.3536663, y: -0.51329803}
 --- !u!1 &1668180095416603666
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +350,7 @@ GameObject:
   - component: {fileID: 1668180095416603671}
   - component: {fileID: 1668180095416603664}
   - component: {fileID: 1668180095416603665}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: WallTestLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +426,7 @@ GameObject:
   - component: {fileID: 1668180095611535396}
   - component: {fileID: 1668180095611535397}
   - component: {fileID: 1668180095611535398}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: WallTestRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +502,7 @@ GameObject:
   - component: {fileID: 6916913769563390255}
   - component: {fileID: 1049758829346345386}
   - component: {fileID: 6542334015816017040}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -628,7 +585,7 @@ GameObject:
   - component: {fileID: 3106064713681178979}
   - component: {fileID: 5842111123837050720}
   - component: {fileID: 4532630679372128672}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: GroundTestLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,7 +661,7 @@ GameObject:
   - component: {fileID: 6498272042444196730}
   - component: {fileID: 1343679326160716715}
   - component: {fileID: 8548067531479971156}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: GroundTestRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

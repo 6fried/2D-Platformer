@@ -43,7 +43,10 @@ public class Pickup : MonoBehaviour
             {
                 Instantiate(pickUpEffect, transform.position, Quaternion.identity, null);
             }
-            Destroy(this.gameObject);
+            if (!name.Contains("Gravity"))
+            {
+                Destroy(this.gameObject);
+            }
         }
     }
 }
